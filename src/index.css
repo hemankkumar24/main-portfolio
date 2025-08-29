@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@100..900&display=swap');
+@import "tailwindcss";
+@font-face {
+  font-family: "HeroBold";
+  src: url("/fonts/SquadaOne-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "HeroText";
+  src: url("/fonts/Heading-Pro-Wide-Bold-trial.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "NavHero";
+  src: url("/fonts/Aileron-Bold.otf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+#herobold{
+    font-family: HeroBold;
+}
+#herotext{
+    font-family: HeroText;
+}
+#navhero{
+    font-family: NavHero;
+}
+#othertext{
+    font-family: "Kumbh Sans";
+}
