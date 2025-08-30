@@ -4,10 +4,10 @@ const Navbar = () => {
   return (
     <>
     {/* hero text and navbar */}
-      <div className='flex justify-between items-center pt-7 px-12'>
-        <div className='text-3xl text-[#394C5B] tracking-tighter' id="navhero">hemank</div>
-        <div className='text-xl flex gap-25' id="othertext">
-          <div className="relative cursor-pointer ml-17 group inline-block">
+      <div className='flex justify-between items-center pt-7 px-3 md:px-12'>
+        <div className='text-3xl text-[#394C5B] tracking-tighter hidden md:block' id="navhero">hemank</div>
+        <div className='text-xl flex flex-col md:flex-row md:gap-25' id="othertext">
+          <div className="relative cursor-pointer md:ml-17 group inline-block">
             Home
             <span className='absolute left-0 -bottom-1 h-[2px] w-0 bg-[#394C5B] transition-all duration-300 group-hover:w-full'></span>
           </div>

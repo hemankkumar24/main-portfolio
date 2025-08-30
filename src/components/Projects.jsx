@@ -2,14 +2,14 @@ import React from 'react'
 
 const Projects = () => {
   return (
-    <div className="min-h-screen w-screen bg-cover bg-top flex flex-col"
+    <div className="h-screen w-full bg-cover bg-top flex flex-col"
      style={{ backgroundImage: "url('/images/background_2.png')" }}>
         {/* Heading */}
         <div className='w-full flex text-xl pt-15 justify-center' id="othertext">
             Featured Projects
         </div>
         {/* Clear Report Project */}
-        <div className='flex flex-wrap m-15 overflow-hidden gap-5 justify-center'>
+        <div className='flex flex-wrap mt-15 mx-3 xl:mt-15 xl:m-15 overflow-hidden gap-5 justify-center'>
             <div className='w-full md:w-3/7  bg-neutral-300 rounded-xl'>
                 <span className="absolute top-0 right-[-15px] h-full w-[1px] bg-black"></span>
                 <img src="./images/projects/Clearreport.png" alt="ClearReport Image" 

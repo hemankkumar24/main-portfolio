@@ -33,3 +33,6 @@
 #othertext{
     font-family: "Kumbh Sans";
 }
+html, body{
+    overflow-x: hidden;
+}
